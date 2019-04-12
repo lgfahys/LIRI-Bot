@@ -12,6 +12,10 @@ var spotify = new Spotify(keys.spotify);
 // setting up BandsInTown variables
 var axios = require("axios");
 
+// requiring moment,js
+var moment = require('moment');
+
+// setting up search/argument variables
 var argument = process.argv[2];
 var search = process.argv.slice(3, process.argv.length).join(" ");
 
@@ -49,10 +53,10 @@ function bandsSearch() {
   axios.get("https://rest.bandsintown.com/artists/" + artist + "/events?app_id=codingbootcamp").then(
     function (response) {
       for (i = 0; i < response.data.length; i++) {
-        console.log("----------Event Info----------")
+        console.log("----------Event Info----------");
         console.log("Venue Name: " + response.data[i].venue.name);
         console.log("Venue Location: " + response.data[i].venue.city + ", " + response.data[i].venue.region);
-        console.log("Date of event: " + response.data[i].datetime);
+        console.log("Date of event: " + moment(response.data[i].datetime).format("MM/DD/YYYY"));
         console.log("---------------------------------");
       }
     }
