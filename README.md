@@ -27,7 +27,5 @@ node liri.js (command) + (search(song, artist, movie)
   - Used to grab data from the OMDB API and the Bands In Town API
 - [Moment.js](https://www.npmjs.com/package/axios "Axios")
   - Used to format date/time to "MM/DD/YYYY"
-
-<video width="320" height="200" controls preload> 
-    <source src="liri-bot-demo.swf"></source> 
-</video>
+  
+  [LIRI-Bot Demo](https://youtu.be/f-ta33RlNRA "LIRI-Bot Demo")
