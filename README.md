@@ -28,4 +28,6 @@ node liri.js (command) + (search(song, artist, movie)
 - [Moment.js](https://www.npmjs.com/package/axios "Axios")
   - Used to format date/time to "MM/DD/YYYY"
 
-
+<video width="320" height="200" controls preload> 
+    <source src="liri-bot-demo.swf"></source> 
+</video>
