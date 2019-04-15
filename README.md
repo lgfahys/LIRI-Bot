@@ -1,5 +1,7 @@
 # LIRI-Bot
 
+:video_camera:[LIRI-Bot Demo](https://youtu.be/f-ta33RlNRA "LIRI-Bot Demo"):video_camera:
+
 ## Description ##
 LIRI-Bot is a language interpreter application using node.js. LIRI-Bot allows users to interact with the CLI and search for information on specific songs, artists and movies. 
 
@@ -28,4 +30,3 @@ node liri.js (command) + (search(song, artist, movie)
 - [Moment.js](https://www.npmjs.com/package/axios "Axios")
   - Used to format date/time to "MM/DD/YYYY"
   
-  [LIRI-Bot Demo](https://youtu.be/f-ta33RlNRA "LIRI-Bot Demo")
