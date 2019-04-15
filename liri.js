@@ -101,7 +101,7 @@ function omdbSearch(search) {
       console.log("\033[38;5;6m" + "Rotten Tomatoes Rating: " + "\033[0m" + response.data.Ratings[1].Value);
       console.log("\033[38;5;6m" + "Country: " + "\033[0m" + response.data.Country);
       console.log("\033[38;5;6m" + "Language(s): " + "\033[0m" + response.data.Language);
-      console.log("\033[38;5;6m" + "Plot: " + "\033[0m" + response.data.Plo);
+      console.log("\033[38;5;6m" + "Plot: " + "\033[0m" + response.data.Plot);
       console.log("\033[38;5;6m" + "Actors: " + "\033[0m" + response.data.Actors + "\n");
       console.log("------------------------------");
     }
